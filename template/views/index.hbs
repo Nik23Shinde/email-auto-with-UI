@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Email-Automation</title>
+    <link rel="icon" href="/img/mail-logo.png">
+    <link rel="stylesheet" href="./css/styles.css" >
+    
+</head>
+
+<body>
+    <div class="main-content"> 
+    
+        {{>header}}
+
+        <p>Use this site to automate your emails</p>
+
+        <form>
+            <input id="uid" placeholder="uid" type="number" min="1" max="5"><br><br>
+
+            <input id="from" placeholder="from-emailid" type="email"><br><br>
+
+            <input id="password" placeholder="password" type="password"><br><br>
+
+            <input id="to" placeholder="to-emailid" type="email"><br><br>
+
+            <input id="subject" placeholder="subject" type="text"><br><br>
+
+            <input id="message" placeholder="message" type="text"><br><br>
+
+            <input id="date" placeholder="date" type="date"><br><br>
+
+            <input id="time" placeholder="time" type="time"><br><br>
+
+            <button id="submit">submit</button><br><br>
+
+        </form>
+
+        <p id="m1"></p>
+        <p id="m2"></p>
+        <p id="m3"></p>
+        <p id="m4"></p>
+        <p id="m5"></p>
+        <p id="m6"></p>
+
+    </div>>
+
+{{>footer}}
+
+<script src="/js/app.js"></script>
+
+</body>
+</html>
